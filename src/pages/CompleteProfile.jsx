@@ -12,7 +12,7 @@ export default function CompleteProfile() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     const token = await getToken();
-    await fetch('https://your-backend.com/api/profile', {
+    await fetch('https://clerk-auth-backend.onrender.com/api/profile', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
