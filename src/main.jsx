@@ -5,7 +5,8 @@ import './index.css';
 import { ClerkProvider } from '@clerk/clerk-react';
 import { BrowserRouter } from 'react-router-dom';
 
-const clerkPubKey = import.meta.env.VITE_CLERK_PUBLISHABLE_KEY;
+// ✅ Your Clerk Publishable Key
+const clerkPubKey = "pk_test_bGl0ZXJhdGUtaGFyZS03NS5jbGVyay5hY2NvdW50cy5kZXYk";
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -16,3 +17,4 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     </ClerkProvider>
   </React.StrictMode>
 );
+
