@@ -6,7 +6,7 @@ import { SignedIn, SignedOut, RedirectToSignIn } from "@clerk/clerk-react";
 
 export default function App() {
   return (
-    <>
+    <div className="p-8 md:p-16">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -24,6 +24,6 @@ export default function App() {
           }
         />
       </Routes>
-    </>
+    </div>
   );
 }
