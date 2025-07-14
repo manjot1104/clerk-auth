@@ -9,12 +9,12 @@ export default function Navbar() {
       </h1>
 
       <div className="flex items-center space-x-4">
-        {/* When user is signed in */}
+
         <SignedIn>
           <UserButton afterSignOutUrl="/" />
         </SignedIn>
 
-        {/* When user is signed out */}
+        
         <SignedOut>
           <SignInButton>
             <button className="text-lg px-6 py-3 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition">Sign In</button>

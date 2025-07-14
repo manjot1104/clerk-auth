@@ -5,7 +5,7 @@ import './index.css';
 import { ClerkProvider } from '@clerk/clerk-react';
 import { BrowserRouter } from 'react-router-dom';
 
-// ✅ Your Clerk Publishable Key
+
 const clerkPubKey = "pk_test_bGl0ZXJhdGUtaGFyZS03NS5jbGVyay5hY2NvdW50cy5kZXYk";
 
 ReactDOM.createRoot(document.getElementById('root')).render(
